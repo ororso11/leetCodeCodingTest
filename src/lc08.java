@@ -9,6 +9,5 @@ public class lc08 {
         for(int i = 0; i < strList.length;i++) {
             strList1[indices[i]] = strList[i];
         }
-
     }
 }
