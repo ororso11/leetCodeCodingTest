@@ -4,7 +4,7 @@ import java.util.List;
 
 public class lc10 {
     public static void main(String[] args) {
-        int[] candies = {2,8,7};
+        int[] candies = {2,8,1};
         int extraCandies = 1;
         boolean[] resBoolean = new boolean[candies.length];
         List<Boolean> res = new ArrayList<>();
