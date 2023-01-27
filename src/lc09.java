@@ -15,7 +15,7 @@ public class lc09 {
         int alphabeticalEndNum = (int) charList[2] - 64;
         int resNum = alphabeticalEndNum - alphabeticalStartNum;
 
-        // 엑셀 기준 행이 1인경우 임
+        // 엑셀 기준 행이 1인경우 이다
         if( charList[3] == '1' ) {
             for(int i = 0; i <= resNum; i++) {
                 char c = charList[0]++;
